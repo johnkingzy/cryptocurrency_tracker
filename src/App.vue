@@ -64,7 +64,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&copy; 2018, Made with <span id="hearts"> &hearts; </span> by <a href="https://github.com/andela-ksolomon/cryptocurrency_tracker">Solomon Kingsley</a></span>
     </v-footer>
   </v-app>
 </template>
@@ -103,3 +103,8 @@ export default {
     }
 }
 </script>
+<style>
+#hearts {
+  color: #FF3B30;
+}
+</style>
